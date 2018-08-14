@@ -1,0 +1,27 @@
+<!DOCTYPE html> 
+<html lang="pt-BR">
+    <head>
+        <title>Uma página</title>
+        <meta charset="utf-8">        
+        <meta name="author" content="Marcílio Freitas">
+        <meta name="generator" content="Brackets">
+        <meta name="keywords" content="HTML5, curso html, curso front end, css, java">
+        <meta name="description" content="pagina do curso de html5">
+        <meta name="application-name" content="vai dar">
+                                <!--periodicidade em segundos-->
+        <meta http-equiv="refresh" content="4">
+        
+        <script>
+            function sorteioNumero() {
+                resultado.innerHTML = Math.random() * 50;
+            }
+            
+            window.onload = sorteioNumero;
+            
+        </script>
+        
+    </head>
+    <body>
+        <p id="resultado"></p>
+    </body>
+</html>
